@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+header{
+    width: 100%;
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #393939;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: bold;
+    padding: 5px 20px;
+    border-radius: 100px;
+    margin: 5px 10px;
+}
+
+.menu a:hover,
+.menu a.active{
+    background: #393939;
+    color: #fff;
+}
+
+h1{
+    font-size: 34px;
+    color:#393939;
+    margin: 20px 20px;
+    padding: 5px 20px;
+}
+
+img{
+    width: 375px;
+    height: 375px;
+}
+
+marquee img{
+    width: 325px;
+    height: 325px;
+}
